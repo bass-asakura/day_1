@@ -23,7 +23,7 @@ class Operation
         
         if (age >= 18)
         {
-            File.AppendAllText(@"C:\vs code\task_1\userlist", name + " " + age + "\n");
+            File.AppendAllText(@"C:\vs code\day_1\userlist", name + " " + age + "\n");
         }
     }
 }
